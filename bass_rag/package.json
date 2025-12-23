@@ -1,0 +1,14 @@
+{
+  "name": "j309",
+  "version": "1.0.0",
+  "description": "로컬 Ollama (Gemma3 27B)를 사용하는 RAG 백엔드 시스템입니다.",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^24.10.1"
+  }
+}

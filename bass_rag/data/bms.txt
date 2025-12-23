@@ -1,0 +1,1 @@
+BMS(Battery Management System)는 배터리를 관리하는 시스템입니다.

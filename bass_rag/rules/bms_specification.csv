@@ -1,0 +1,277 @@
+column_name,data_type,description,table_type
+acceptable_chrg_pw,float,허용 충전 전력,BMS
+acceptable_dischrg_pw,float,허용 방전 전력,BMS
+airbag_hwire_duty,float,에어백 하드웨어 듀티,BMS
+batt_coolant_inlet_temp,float,배터리 냉각수 입구 온도,BMS
+batt_fan_running,boolean,배터리 팬 작동 여부,BMS
+batt_internal_temp,float,배터리 내부 온도,BMS
+batt_ltr_rear_temp,float,배터리 후면 온도,BMS
+batt_pra_busbar_temp,float,배터리 프라 버스바 온도,BMS
+batt_pw,float,배터리 전력,BMS
+bms_running,boolean,BMS 작동 여부,BMS
+cell_volt_dispersion,float,셀 전압 분산,BMS
+cell_volt_list,string,셀 전압 리스트,BMS
+chrg_cable_conn,boolean,충전 케이블 연결 여부,BMS
+chrg_cnt,integer,충전 횟수,BMS
+chrg_cnt_q,integer,충전 횟수(품질),BMS
+cumul_current_chrgd,float,누적 충전 전류,BMS
+cumul_current_dischrgd,float,누적 방전 전류,BMS
+cumul_energy_chrgd,float,누적 충전 에너지,BMS
+cumul_energy_chrgd_q,float,누적 충전 에너지(품질),BMS
+cumul_pw_chrgd,float,누적 충전 전력,BMS
+cumul_pw_dischrgd,float,누적 방전 전력,BMS
+device_no,string,단말 ID,BMS
+drive_motor_spd1,float,드라이브 모터 속도 1,BMS
+drive_motor_spd2,float,드라이브 모터 속도 2,BMS
+emobility_spd,float,e모빌리티 속도,BMS
+est_chrg_time,integer,예상 충전 시간,BMS
+ext_temp,float,외부 온도,BMS
+fast_chrg_port_conn,boolean,고속 충전 포트 연결 여부,BMS
+fast_chrg_relay_on,boolean,고속 충전 릴레이 ON 여부,BMS
+hvac_list1,string,HVAC 리스트 1,BMS
+hvac_list2,string,HVAC 리스트 2,BMS
+insul_resistance,float,절연 저항,BMS
+int_temp,float,내부 온도,BMS
+inverter_capacity_volt,float,인버터 용량 전압,BMS
+main_relay_conn,boolean,메인 릴레이 연결 여부,BMS
+max_cell_volt,float,최대 셀 전압,BMS
+max_cell_volt_no,integer,최대 셀 전압 번호,BMS
+max_deter_cell_no,integer,최대 열화 셀 번호,BMS
+measured_month,string,측정 년월,BMS
+min_cell_volt,float,최소 셀 전압,BMS
+min_cell_volt_no,integer,최소 셀 전압 번호,BMS
+min_deter,float,최소 열화도,BMS
+min_deter_cell_no,integer,최소 열화 셀 번호,BMS
+mod_avg_temp,float,모듈 평균 온도,BMS
+mod_max_temp,float,모듈 최대 온도,BMS
+mod_min_temp,float,모듈 최소 온도,BMS
+mod_temp_list,string,모듈 온도 리스트,BMS
+msg_id,string,메시지 ID,BMS
+msg_time,string,메시지 시간,BMS
+odometer,float,주행거리계,BMS
+op_time,integer,동작 시간,BMS
+pack_current,float,팩 전류,BMS
+pack_volt,float,팩 전압,BMS
+seq,integer,시퀀스,BMS
+slow_chrg_port_conn,boolean,완속 충전 포트 연결 여부,BMS
+soc,float,State of Charge(%),BMS
+socd,float,SOC 디스플레이율,BMS
+soh,float,State of Health(%),BMS
+start_time,string,시작 시간,BMS
+sub_batt_volt,float,서브 배터리 전압,BMS
+time,string,상태 정보 수집 시각,BMS
+timestamp,datetime,타임스탬프,BMS
+trip_chrg_pw,float,주행 구간 충전 전력,BMS
+trip_dischrg_pw,float,주행 구간 방전 전력,BMS
+v2l,boolean,V2L 여부,BMS
+cell_v_001,float,셀 전압 001,BMS
+cell_v_002,float,셀 전압 002,BMS
+cell_v_003,float,셀 전압 003,BMS
+cell_v_004,float,셀 전압 004,BMS
+cell_v_005,float,셀 전압 005,BMS
+cell_v_006,float,셀 전압 006,BMS
+cell_v_007,float,셀 전압 007,BMS
+cell_v_008,float,셀 전압 008,BMS
+cell_v_009,float,셀 전압 009,BMS
+cell_v_010,float,셀 전압 010,BMS
+cell_v_011,float,셀 전압 011,BMS
+cell_v_012,float,셀 전압 012,BMS
+cell_v_013,float,셀 전압 013,BMS
+cell_v_014,float,셀 전압 014,BMS
+cell_v_015,float,셀 전압 015,BMS
+cell_v_016,float,셀 전압 016,BMS
+cell_v_017,float,셀 전압 017,BMS
+cell_v_018,float,셀 전압 018,BMS
+cell_v_019,float,셀 전압 019,BMS
+cell_v_020,float,셀 전압 020,BMS
+cell_v_021,float,셀 전압 021,BMS
+cell_v_022,float,셀 전압 022,BMS
+cell_v_023,float,셀 전압 023,BMS
+cell_v_024,float,셀 전압 024,BMS
+cell_v_025,float,셀 전압 025,BMS
+cell_v_026,float,셀 전압 026,BMS
+cell_v_027,float,셀 전압 027,BMS
+cell_v_028,float,셀 전압 028,BMS
+cell_v_029,float,셀 전압 029,BMS
+cell_v_030,float,셀 전압 030,BMS
+cell_v_031,float,셀 전압 031,BMS
+cell_v_032,float,셀 전압 032,BMS
+cell_v_033,float,셀 전압 033,BMS
+cell_v_034,float,셀 전압 034,BMS
+cell_v_035,float,셀 전압 035,BMS
+cell_v_036,float,셀 전압 036,BMS
+cell_v_037,float,셀 전압 037,BMS
+cell_v_038,float,셀 전압 038,BMS
+cell_v_039,float,셀 전압 039,BMS
+cell_v_040,float,셀 전압 040,BMS
+cell_v_041,float,셀 전압 041,BMS
+cell_v_042,float,셀 전압 042,BMS
+cell_v_043,float,셀 전압 043,BMS
+cell_v_044,float,셀 전압 044,BMS
+cell_v_045,float,셀 전압 045,BMS
+cell_v_046,float,셀 전압 046,BMS
+cell_v_047,float,셀 전압 047,BMS
+cell_v_048,float,셀 전압 048,BMS
+cell_v_049,float,셀 전압 049,BMS
+cell_v_050,float,셀 전압 050,BMS
+cell_v_051,float,셀 전압 051,BMS
+cell_v_052,float,셀 전압 052,BMS
+cell_v_053,float,셀 전압 053,BMS
+cell_v_054,float,셀 전압 054,BMS
+cell_v_055,float,셀 전압 055,BMS
+cell_v_056,float,셀 전압 056,BMS
+cell_v_057,float,셀 전압 057,BMS
+cell_v_058,float,셀 전압 058,BMS
+cell_v_059,float,셀 전압 059,BMS
+cell_v_060,float,셀 전압 060,BMS
+cell_v_061,float,셀 전압 061,BMS
+cell_v_062,float,셀 전압 062,BMS
+cell_v_063,float,셀 전압 063,BMS
+cell_v_064,float,셀 전압 064,BMS
+cell_v_065,float,셀 전압 065,BMS
+cell_v_066,float,셀 전압 066,BMS
+cell_v_067,float,셀 전압 067,BMS
+cell_v_068,float,셀 전압 068,BMS
+cell_v_069,float,셀 전압 069,BMS
+cell_v_070,float,셀 전압 070,BMS
+cell_v_071,float,셀 전압 071,BMS
+cell_v_072,float,셀 전압 072,BMS
+cell_v_073,float,셀 전압 073,BMS
+cell_v_074,float,셀 전압 074,BMS
+cell_v_075,float,셀 전압 075,BMS
+cell_v_076,float,셀 전압 076,BMS
+cell_v_077,float,셀 전압 077,BMS
+cell_v_078,float,셀 전압 078,BMS
+cell_v_079,float,셀 전압 079,BMS
+cell_v_080,float,셀 전압 080,BMS
+cell_v_081,float,셀 전압 081,BMS
+cell_v_082,float,셀 전압 082,BMS
+cell_v_083,float,셀 전압 083,BMS
+cell_v_084,float,셀 전압 084,BMS
+cell_v_085,float,셀 전압 085,BMS
+cell_v_086,float,셀 전압 086,BMS
+cell_v_087,float,셀 전압 087,BMS
+cell_v_088,float,셀 전압 088,BMS
+cell_v_089,float,셀 전압 089,BMS
+cell_v_090,float,셀 전압 090,BMS
+cell_v_091,float,셀 전압 091,BMS
+cell_v_092,float,셀 전압 092,BMS
+cell_v_093,float,셀 전압 093,BMS
+cell_v_094,float,셀 전압 094,BMS
+cell_v_095,float,셀 전압 095,BMS
+cell_v_096,float,셀 전압 096,BMS
+cell_v_097,float,셀 전압 097,BMS
+cell_v_098,float,셀 전압 098,BMS
+cell_v_099,float,셀 전압 099,BMS
+cell_v_100,float,셀 전압 100,BMS
+cell_v_101,float,셀 전압 101,BMS
+cell_v_102,float,셀 전압 102,BMS
+cell_v_103,float,셀 전압 103,BMS
+cell_v_104,float,셀 전압 104,BMS
+cell_v_105,float,셀 전압 105,BMS
+cell_v_106,float,셀 전압 106,BMS
+cell_v_107,float,셀 전압 107,BMS
+cell_v_108,float,셀 전압 108,BMS
+cell_v_109,float,셀 전압 109,BMS
+cell_v_110,float,셀 전압 110,BMS
+cell_v_111,float,셀 전압 111,BMS
+cell_v_112,float,셀 전압 112,BMS
+cell_v_113,float,셀 전압 113,BMS
+cell_v_114,float,셀 전압 114,BMS
+cell_v_115,float,셀 전압 115,BMS
+cell_v_116,float,셀 전압 116,BMS
+cell_v_117,float,셀 전압 117,BMS
+cell_v_118,float,셀 전압 118,BMS
+cell_v_119,float,셀 전압 119,BMS
+cell_v_120,float,셀 전압 120,BMS
+cell_v_121,float,셀 전압 121,BMS
+cell_v_122,float,셀 전압 122,BMS
+cell_v_123,float,셀 전압 123,BMS
+cell_v_124,float,셀 전압 124,BMS
+cell_v_125,float,셀 전압 125,BMS
+cell_v_126,float,셀 전압 126,BMS
+cell_v_127,float,셀 전압 127,BMS
+cell_v_128,float,셀 전압 128,BMS
+cell_v_129,float,셀 전압 129,BMS
+cell_v_130,float,셀 전압 130,BMS
+cell_v_131,float,셀 전압 131,BMS
+cell_v_132,float,셀 전압 132,BMS
+cell_v_133,float,셀 전압 133,BMS
+cell_v_134,float,셀 전압 134,BMS
+cell_v_135,float,셀 전압 135,BMS
+cell_v_136,float,셀 전압 136,BMS
+cell_v_137,float,셀 전압 137,BMS
+cell_v_138,float,셀 전압 138,BMS
+cell_v_139,float,셀 전압 139,BMS
+cell_v_140,float,셀 전압 140,BMS
+cell_v_141,float,셀 전압 141,BMS
+cell_v_142,float,셀 전압 142,BMS
+cell_v_143,float,셀 전압 143,BMS
+cell_v_144,float,셀 전압 144,BMS
+cell_v_145,float,셀 전압 145,BMS
+cell_v_146,float,셀 전압 146,BMS
+cell_v_147,float,셀 전압 147,BMS
+cell_v_148,float,셀 전압 148,BMS
+cell_v_149,float,셀 전압 149,BMS
+cell_v_150,float,셀 전압 150,BMS
+cell_v_151,float,셀 전압 151,BMS
+cell_v_152,float,셀 전압 152,BMS
+cell_v_153,float,셀 전압 153,BMS
+cell_v_154,float,셀 전압 154,BMS
+cell_v_155,float,셀 전압 155,BMS
+cell_v_156,float,셀 전압 156,BMS
+cell_v_157,float,셀 전압 157,BMS
+cell_v_158,float,셀 전압 158,BMS
+cell_v_159,float,셀 전압 159,BMS
+cell_v_160,float,셀 전압 160,BMS
+cell_v_161,float,셀 전압 161,BMS
+cell_v_162,float,셀 전압 162,BMS
+cell_v_163,float,셀 전압 163,BMS
+cell_v_164,float,셀 전압 164,BMS
+cell_v_165,float,셀 전압 165,BMS
+cell_v_166,float,셀 전압 166,BMS
+cell_v_167,float,셀 전압 167,BMS
+cell_v_168,float,셀 전압 168,BMS
+cell_v_169,float,셀 전압 169,BMS
+cell_v_170,float,셀 전압 170,BMS
+cell_v_171,float,셀 전압 171,BMS
+cell_v_172,float,셀 전압 172,BMS
+cell_v_173,float,셀 전압 173,BMS
+cell_v_174,float,셀 전압 174,BMS
+cell_v_175,float,셀 전압 175,BMS
+cell_v_176,float,셀 전압 176,BMS
+cell_v_177,float,셀 전압 177,BMS
+cell_v_178,float,셀 전압 178,BMS
+cell_v_179,float,셀 전압 179,BMS
+cell_v_180,float,셀 전압 180,BMS
+cell_v_181,float,셀 전압 181,BMS
+cell_v_182,float,셀 전압 182,BMS
+cell_v_183,float,셀 전압 183,BMS
+cell_v_184,float,셀 전압 184,BMS
+cell_v_185,float,셀 전압 185,BMS
+cell_v_186,float,셀 전압 186,BMS
+cell_v_187,float,셀 전압 187,BMS
+cell_v_188,float,셀 전압 188,BMS
+cell_v_189,float,셀 전압 189,BMS
+cell_v_190,float,셀 전압 190,BMS
+cell_v_191,float,셀 전압 191,BMS
+cell_v_192,float,셀 전압 192,BMS
+mod_temp_01,float,모듈 온도 01,BMS
+mod_temp_02,float,모듈 온도 02,BMS
+mod_temp_03,float,모듈 온도 03,BMS
+mod_temp_04,float,모듈 온도 04,BMS
+mod_temp_05,float,모듈 온도 05,BMS
+mod_temp_06,float,모듈 온도 06,BMS
+mod_temp_07,float,모듈 온도 07,BMS
+mod_temp_08,float,모듈 온도 08,BMS
+mod_temp_09,float,모듈 온도 09,BMS
+mod_temp_10,float,모듈 온도 10,BMS
+mod_temp_11,float,모듈 온도 11,BMS
+mod_temp_12,float,모듈 온도 12,BMS
+mod_temp_13,float,모듈 온도 13,BMS
+mod_temp_14,float,모듈 온도 14,BMS
+mod_temp_15,float,모듈 온도 15,BMS
+mod_temp_16,float,모듈 온도 16,BMS
+mod_temp_17,float,모듈 온도 17,BMS
+mod_temp_18,float,모듈 온도 18,BMS
+

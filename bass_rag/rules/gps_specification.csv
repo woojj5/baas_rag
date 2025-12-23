@@ -1,0 +1,16 @@
+column_name,data_type,description,table_type
+device_no,string,단말 ID,GPS
+direction,float,방향,GPS
+fuel_pct,float,연료 퍼센트,GPS
+hdop,float,Horizontal Dilution of Precision,GPS
+lat,float,위도,GPS
+lng,float,경도,GPS
+lon,float,경도(GPS)
+measured_month,string,측정 년월,GPS
+mode,integer,GPS 모드,GPS
+source,string,데이터 소스,GPS
+speed,float,속도(km/h),GPS
+state,string,상태,GPS
+time,string,시간,GPS
+timestamp,datetime,타임스탬프,GPS
+
