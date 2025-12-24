@@ -91,5 +91,4 @@ pip install -r requirements.txt
 | ![모니터링 1](./rag-5.png) | ![모니터링 2](./rag-6.png) |
 
 ---
-**보고서 작성 및 README 생성 완료** (2025. 12. 23.)
 
