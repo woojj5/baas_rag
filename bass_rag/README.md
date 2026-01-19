@@ -11,7 +11,7 @@ EV Battery·BMS·BAAS 전문 어시스턴트를 위한 로컬 RAG 백엔드입�
 ### 1. 가상환경 생성 및 패키지 설치
 
 ```bash
-cd /home/keti_spark1/j309
+cd /dir
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
